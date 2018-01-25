@@ -13,5 +13,46 @@ arr2 = [3, 4]
 print(arr1 + arr2)
 # [1, 2, 3, 4]
 
-tmpArr = [1, 4, 9, 16]
+numArr = [1, 4, 9, 16]
+sum = 0
+for i in numArr:
+    sum += i
+print(sum)
+
+listExam = ['larry', 'curly', 'moe']
+if 'mo' in listExam:
+    print(True)
+else:
+    print(False)
+
+
+for i in range(10):
+   print(i)
+# 0 to 9
+
+
+listA = ['a', 'b', 'c']
+listA.append('aaa')
+listA.insert(0, 'xxx')
+listA.extend(['ppp', 'qqq'])
+print(listA)
+print(listA.index('aaa'))
+listA.remove('aaa')
+print(listA)
+listA.pop(1) # 삭제
+print(listA)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
