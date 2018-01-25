@@ -1,0 +1,17 @@
+
+# Array
+colors = ["red", "blue", "green"]
+print(colors[0])
+print(len(colors))
+
+b = colors
+print(b)
+print(b[0])
+
+arr1 = [1, 2]
+arr2 = [3, 4]
+print(arr1 + arr2)
+# [1, 2, 3, 4]
+
+tmpArr = [1, 4, 9, 16]
+

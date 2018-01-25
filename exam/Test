@@ -1,0 +1,39 @@
+# a = 1
+# b = 2
+# c = a + b
+# print(c)
+
+
+# x = -1
+# if x > 0:
+#     a = 1
+#     b = 2
+#     c = a + b
+# else:
+#     a = -1
+#     b = -2
+#     c = a - b
+#
+# print(c)
+
+
+# import math
+# n = math.sqrt(9.0)
+# print(n)
+
+
+# 주석이지요
+# a = True
+# print(bool(a))
+
+
+# a = 1
+# if a != 1:
+#     print("1아님")
+# else:
+#     print("1")
+
+
+x = True
+y = False
+
