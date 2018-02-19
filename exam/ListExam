@@ -43,6 +43,45 @@ listA.pop(1) # 삭제
 print(listA)
 
 
+a = [1, 2, ['a', 'b', ['Life', 'is']]]
+print(a[-1][-1][0])
+
+b = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(b[2:5])
+
+aa = [1, 2, 3]
+bb = [4, 5, 6]
+print(aa +  bb)
+# [1, 2, 3, 4, 5, 6]
+print(aa * 3)
+# [1, 2, 3, 1, 2, 3, 1, 2, 3]
+
+aaa = [1, 2, 3, 1, 2, 1, 1, 1]
+print(aaa.count(1))
+print(aaa[2:])
+
+
+if []:
+    print(True)
+else:
+    print(False)
+# False
+
+a, b = '1', '1'
+if a is b:
+    print("a와 b는 같지요")
+
+
+for i in range(2, 10):
+    for j in range(1, 10):
+        print(i*j, end=" ")
+    print('')
+
+
+result = [x*y for x in range(2, 10)
+              for y in range(1, 10)]
+print(result)
+
 
 
 

@@ -1,7 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 
-# html = requests.get('http://www.encar.com/dc/dc_cardetailview.do?carid=21982868').text
 html = requests.get('http://www.naver.com').text
 soup = BeautifulSoup(html, 'html.parser')
 
